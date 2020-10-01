@@ -120,6 +120,11 @@ body {
   align-items: center;
 }
 
+.contact-nav:hover,
+.contact-nav:focus {
+  fill: var(--blue-color);
+}
+
 .contact-nav:not(:last-child) {
   margin-right: 51px;
 }
@@ -132,10 +137,10 @@ body {
   margin-right: 10px;
 }
 
-.icon-envelope:hover,
+/* .icon-envelope:hover,
 .icon-envelope:focus {
   fill: var(--blue-color);
-}
+} */
 
 .contact-link {
   padding: 0;
