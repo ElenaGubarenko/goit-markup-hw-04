@@ -65,6 +65,7 @@ body {
 }
 
 .nav-list {
+  justify-items: center;
   display: flex;
   margin: 0;
   padding: 0;
@@ -85,8 +86,7 @@ body {
 
 .nav-link {
   color: var(--heading-text-color);
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding: 0;
 }
 
 .current {
@@ -115,13 +115,30 @@ body {
   padding-bottom: 25px;
 }
 
+.contact-nav {
+  display: flex;
+  align-items: center;
+}
+
 .contact-nav:not(:last-child) {
   margin-right: 51px;
 }
 
+.icon-grey {
+  fill: var(--main-text-color);
+}
+
+.icon-envelope {
+  margin-right: 10px;
+}
+
+.icon-envelope:hover,
+.icon-envelope:focus {
+  fill: var(--blue-color);
+}
+
 .contact-link {
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding: 0;
 
   font-size: 14px;
   font-weight: 500;
@@ -329,9 +346,6 @@ body {
 
 .mail {
   margin-bottom: 17px;
-}
-
-.phone {
 }
 
 .mail,
