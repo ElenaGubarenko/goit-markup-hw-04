@@ -115,34 +115,31 @@ body {
   padding-bottom: 25px;
 }
 
-.contact-nav {
-  display: flex;
-  align-items: center;
-}
-
-.contact-nav:hover,
-.contact-nav:focus {
-  fill: var(--blue-color);
-}
+/* .contact-nav:hover .icon-envelope,
+.contact-nav:focus .icon-envelope {
+  fill: var(--blue-color); */
 
 .contact-nav:not(:last-child) {
   margin-right: 51px;
 }
 
+.contact-nav:hover .icon-grey,
+.contact-nav:focus .icon-grey {
+  fill: var(--blue-color);
+} 
+
 .icon-grey {
   fill: var(--main-text-color);
 }
 
-.icon-envelope {
+.icon-envelope,
+.icon-vector {
   margin-right: 10px;
 }
 
-/* .icon-envelope:hover,
-.icon-envelope:focus {
-  fill: var(--blue-color);
-} */
-
 .contact-link {
+  display: flex;
+  align-items: center;
   padding: 0;
 
   font-size: 14px;
