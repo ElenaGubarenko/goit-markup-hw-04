@@ -303,12 +303,20 @@ body {
 .workers {
   display: flex;
   padding: 0;
-
   margin: 0;
 }
 
 .workers-images:not(:last-child) {
   margin-right: 30px;
+}
+/* 
+.workers-cards {
+  background-color: var(--);
+} */
+
+.profession-name-social {
+  background-color: var(--white-color);
+  
 }
 
 .team-member {
@@ -325,8 +333,7 @@ body {
 }
 
 .profession {
-  padding-top: 0;
-  padding-bottom: 31px;
+  padding: 0;
   margin: 0;
 
   color: var(--main-text-color);
@@ -337,10 +344,10 @@ body {
   text-align: center;
 }
 
-.team-member,
+/* .team-member,
 .profession {
   background-color: var(--white-color);
-}
+} */
 
 .social-link {
   display: flex;
@@ -349,8 +356,6 @@ body {
   fill: var(--main-text-color);
   width: 44px;
   height: 44px;
-
-
 }
 
 .social-link:hover,
@@ -360,8 +365,14 @@ fill: var(--white-color);
 border-radius: 50%;
 }
 
-.icon-instagram {
-  
+.social-links-list {
+  display: flex;
+  padding: 16px 32px;
+  /* background-color: var(--white-color); */
+}
+
+.social-item:not(:last-child) {
+margin-right: 10px;
 }
 
 .footer {
